@@ -79,7 +79,7 @@ function App() {
 
   return (
     <div className={` custom-fonts min-w-[100vw] min-h-[100vh]  flex   `} style={{ backgroundColor: theme }} >
-      <div className={`w-[400px] h-[100vh] overflow-auto absolute left-0 top-14 z-10  bg-black flex flex-co transition-transform duration-300 ${isHidden ? '-translate-x-full' : 'translate-x-0'}`}>
+      <div className={` w-[80vw] md:w-[400px] h-[100vh] overflow-auto absolute left-0 top-14 z-10  bg-black flex flex-co transition-transform duration-300 ${isHidden ? '-translate-x-full' : 'translate-x-0'}`}>
         <Sidebar activeImages={activeImages} setActiveImages={setActiveImages} isHidden={isHidden} setIsHidden={setIsHidden} positions={positions} setPositions={setPositions} />
       </div>
       {/* Main Div */}
